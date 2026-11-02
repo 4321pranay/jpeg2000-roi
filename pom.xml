@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>io.github.4321pranay</groupId>
+  <artifactId>jpeg2000-roi</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <name>JPEG 2000 ROI writer for jai-imageio</name>
+  <description>ImageIO writer that adds rectangular region-of-interest (max-shift) encoding to JPEG 2000 on top of jai-imageio-jpeg2000.</description>
+  <url>https://github.com/4321pranay/jpeg2000-roi</url>
+
+  <licenses>
+    <license>
+      <name>BSD-3-Clause</name>
+      <url>https://opensource.org/license/bsd-3-clause</url>
+    </license>
+  </licenses>
+
+  <scm>
+    <url>https://github.com/4321pranay/jpeg2000-roi</url>
+    <connection>scm:git:https://github.com/4321pranay/jpeg2000-roi.git</connection>
+  </scm>
+
+  <properties>
+    <maven.compiler.release>11</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.github.jai-imageio</groupId>
+      <artifactId>jai-imageio-jpeg2000</artifactId>
+      <version>1.4.0</version>
+    </dependency>
+  </dependencies>
+</project>
